@@ -3,7 +3,7 @@
 A library app created with Python/Django
 
 ## Exercises
-1. [ ] Getting Started
+1. Getting Started
    - [ ] Create a Django project with one app, 'library'
    - [ ] Add views and templates for a home and books show page (`/` and `/books/<id>`)
    - [ ] The home page will list all the book titles
@@ -18,7 +18,7 @@ A library app created with Python/Django
 ]
 ```
 
-2. [ ] Add database and models
+2. Add database and models
    - [ ] Setup a 'library' database (your choice of db) 
    - [ ] Create models for Book and Author
      - [ ] Authors have a name
