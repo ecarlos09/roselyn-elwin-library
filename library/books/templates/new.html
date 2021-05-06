@@ -1,0 +1,19 @@
+{% extends "books/base.html" %}
+
+{% block content %}
+    <h1>Make a new book!</h1>
+    <!-- Here are all our books!
+    <ul id="books-container">
+        {% for book in books %}
+            <li>
+                <a href="{% url 'books-show' book_id=book.id %}">
+                    {{ book.name }}
+                </a>
+                {% if books.owner %} <span class="helptext">(borrowed)</span> {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    
+   
+    <a href="{% url 'book-create' %}"> <button>Add new book</button></a> -->
+{% endblock content %}
